@@ -14,7 +14,7 @@ var _ = Describe("Ginkgotest", func() {
 		fmt.Printf("BeforeEach\n")
 	})
 
-	BeforeEach(func() {
+	AfterEach(func() {
 		fmt.Printf("AfterEach\n")
 	})
 
